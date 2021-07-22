@@ -2,7 +2,17 @@ module.exports = {
   purge: ['./src/**/*.{js,jsx,ts,tsx}'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        wiggle: {
+          '0%, 100%': { transform: 'rotate(-180deg)' },
+          '50%': { transform: 'rotate(180deg)' },
+        }
+       },
+       animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
+       }
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
@@ -14,7 +24,9 @@ module.exports = {
     }
   },
   variants: {
-    extend: {},
+    extend: {
+      animation: ['hover', 'group-hover'],
+    },
   },
   plugins: [],
 }

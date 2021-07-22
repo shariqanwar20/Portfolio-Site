@@ -8,11 +8,11 @@ type CardProps = {
 
 export default ({ imgSrc, title, description }: CardProps) => {
     return (
-        <div className="max-w-sm bg-secondaryBg rounded pb-14 pt-8 pr-5 pl-12 m-4 space-y-6">
+        <div className="max-w-sm bg-secondaryBg rounded pb-14 pt-8 pr-5 pl-12 m-4 space-y-6 hover:bg-alternateText">
             {/* card logo */}
             <div>
                 <img
-                    className="block h-12 text-alternateText w-auto"
+                    className="block h-12 text-alternateText w-auto hover:animate-wiggle"
                     src={imgSrc}
                     alt={title}
                   />

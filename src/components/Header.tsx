@@ -2,12 +2,13 @@ import React from 'react'
 
 type HeaderProps = {
     title: string;
-    description: string
+    description: string;
+    backgroundColor: string;
 }
 
-export default ({ title, description }: HeaderProps) => {
+export default ({ title, description, backgroundColor }: HeaderProps) => {
     return (
-        <div className="bg-primaryBg ">
+        <div className={`bg-${backgroundColor}`}>
         <div className="pt-8">
             <div className="space-y-7 m-auto w-1/2">
                     <h4 className="text-4xl text-primaryText font-sans text-center font-bold">
