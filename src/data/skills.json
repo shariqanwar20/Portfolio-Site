@@ -1,0 +1,18 @@
+[
+    {
+        "skillName": "NodeJS",
+        "progressPercentage": 70
+    },
+    {
+        "skillName": "Python",
+        "progressPercentage": 30
+    },
+    {
+        "skillName": "AWS",
+        "progressPercentage": 80
+    },
+    {
+        "skillName": "React",
+        "progressPercentage": 90
+    }
+]
