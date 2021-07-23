@@ -4,6 +4,8 @@ import Services from '../components/Services';
 import About from '../components/About';
 import Skills from '../components/Skills';
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
+import Experience from '../components/Experience';
 
 export default () => {
     return (
@@ -14,8 +16,10 @@ export default () => {
             <Skills />
             {/* Projects */}
             {/* Experience Bar */}
+            <Experience />
             <Contact />
             {/* footer */}
+            <Footer />
         </>
     );
 }
