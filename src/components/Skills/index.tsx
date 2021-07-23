@@ -7,11 +7,11 @@ export default () => {
     <>
       <div className="flex-initial lg:grid lg:grid-cols-2 lg:block justify-center bg-primaryBg py-5 space-y-8">
         <div>
-          <div className="font-sans text-alternateText pt-5 font-semibold m-auto w-1/2">
+          <div className="font-sans text-alternateText pt-5 font-semibold w-full px-5 lg:m-auto lg:w-1/2">
             I'M EXPERT ON
           </div>
           <div className="pt-8">
-            <div className="space-y-7 m-auto w-2/3 lg:w-1/2">
+            <div className="space-y-7 m-auto px-5 w-full lg:w-1/2">
               <h4 className="text-4xl text-primaryText font-sans font-bold">
                 Let's Work Together
               </h4>
@@ -28,7 +28,7 @@ export default () => {
           </div>
         </div>
 
-        <div className="w-2/3 space-y-4 py-12 lg:w-full lg:pr-10 lg:py-0" style={{ margin: "auto auto"}}>
+        <div className="w-full px-5 space-y-4 py-12 lg:w-full lg:pr-10 lg:py-0" style={{ margin: "auto auto"}}>
           {skills.map((skill, i) => {
             return (
               <ProgressBar

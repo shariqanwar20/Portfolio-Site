@@ -10,7 +10,10 @@ type ContactCardProps = {
 export default ({ title, description, backgroundColor }: ContactCardProps) => {
   return (
     <div
-      className={`bg-${backgroundColor} rounded grid grid-cols-4 py-5 w-3/4 md:w-full mx-auto`}
+      className={`bg-${backgroundColor} rounded grid grid-cols-4 py-5 mx-auto md:mx-0`}
+      // style={{
+      //   width: "90%"
+      // }}
     >
       <div className="col-span-1 mx-auto">
         <LocationMarkerIcon className="block h-10 w-10 text-alternateText" />

@@ -18,11 +18,11 @@ export default () => {
             src="https://themebing.com/html/amike/assets/images/me-01-alt.png"
             alt="About Me"
           />
-          <div className="py-12 space-y-7 mx-10">
+          <div className="py-12 space-y-7 mx-5">
             <div className="font-bold text-3xl text-primaryText font-sans">
               Hi There
             </div>
-            <div className="text-x1 text-primaryText w-4/5">
+            <div className="text-x1 text-primaryText w-full">
               In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at
               sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id
               efficitur sagittis, urna est ultricies eros, ac porta sem turpis

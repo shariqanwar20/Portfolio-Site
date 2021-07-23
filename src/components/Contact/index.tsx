@@ -15,7 +15,9 @@ export default () => {
           description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text."
           backgroundColor="primaryBg"
         />
-        <div className="w-full space-y-4 md:grid md:grid-flow-row md:grid-cols-3 md:space-y-0 md:gap-3">
+        <div className="space-y-4 md:grid md:grid-flow-row md:grid-cols-3 md:space-y-0 md:gap-x-2 mx-auto" style={{
+          width: "95%"
+        }}>
           {contacts.map((contact, i) => (
             <ContactCard
               title={contact.title}
@@ -26,7 +28,7 @@ export default () => {
           ))}
         </div>
 
-        <form className="w-2/3 mx-auto space-y-6">
+        <form className="w-full lg:w-4/5 px-5 mx-auto space-y-6">
           <div className="lg:grid lg:grid-cols-2 lg:gap-2 justify-center text-center">
             <input
               type="text"
