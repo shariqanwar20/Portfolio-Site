@@ -1,13 +1,11 @@
 import React from "react";
-import ContactCard from "../components/ContactCard";
-import Header from "../components/Header";
-import Navbar from "../components/Navbar";
-import contacts from '../data/contact.json'
+import ContactCard from "./ContactCard";
+import Header from "../Services/Header";
+import contacts from '../../data/contact.json'
 
 export default () => {
   return (
     <>
-      <Navbar />
       <div className="bg-primaryBg space-y-6">
         <div className="bg-primaryBg font-sans text-alternateText pt-5 text-center font-semibold">
             HAVE ANY QUERY?

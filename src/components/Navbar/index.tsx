@@ -17,7 +17,7 @@ function classNames(...classes) {
 
 export default () => {
   return (
-    <Disclosure as="nav" className="bg-primaryBg">
+    <Disclosure as="nav" className="bg-primaryBg fixed w-full">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">

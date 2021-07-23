@@ -1,13 +1,11 @@
 import React from "react";
-import Card from "../components/Card";
-import Header from "../components/Header";
-import Navbar from "../components/Navbar";
-import services from "../data/services.json";
+import Card from "./Card";
+import Header from "./Header";
+import services from "../../data/services.json";
 
 export default () => {
   return (
     <>
-      <Navbar />
       <div className="bg-primaryBg font-sans text-alternateText py-5 text-center font-semibold">
         SERVICES
       </div>

@@ -1,13 +1,10 @@
-//https://themebing.com/html/amike/assets/images/me-01-alt.png
 import React from "react";
-import Header from "../components/Header";
-import Navbar from "../components/Navbar";
-import about from "../data/about.json";
+import Header from "../Services/Header";
+import about from "../../data/about.json";
 
 export default () => {
   return (
     <>
-      <Navbar />
       <div>
         <Header
           title="About Me"
