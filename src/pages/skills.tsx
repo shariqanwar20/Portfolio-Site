@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import ProgressBar from "../components/ProgressBar";
-import skills from '../data/skills.json'
+import skills from "../data/skills.json";
 
 export default () => {
   return (
@@ -14,7 +14,7 @@ export default () => {
             I'M EXPERT ON
           </div>
           <div className="pt-8">
-            <div className="space-y-7 m-auto w-1/2">
+            <div className="space-y-7 m-auto w-2/3 lg:w-1/2">
               <h4 className="text-4xl text-primaryText font-sans font-bold">
                 Let's Work Together
               </h4>
@@ -31,12 +31,16 @@ export default () => {
           </div>
         </div>
 
-        <div className="m-auto w-1/2 space-y-4 lg:w-full">
-            {skills.map((skill, i) => {
-                return(
-                    <ProgressBar title={skill.skillName} progressPercentage={skill.progressPercentage} key={i}/>
-                )
-            })}
+        <div className="w-2/3 space-y-4 lg:w-full lg:pr-10" style={{ margin: "auto auto"}}>
+          {skills.map((skill, i) => {
+            return (
+              <ProgressBar
+                title={skill.skillName}
+                progressPercentage={skill.progressPercentage}
+                key={i}
+              />
+            );
+          })}
         </div>
       </div>
     </>

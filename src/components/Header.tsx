@@ -10,7 +10,7 @@ export default ({ title, description, backgroundColor }: HeaderProps) => {
   return (
     <div className={`bg-${backgroundColor}`}>
       <div className="pt-8">
-        <div className="space-y-7 m-auto w-1/2">
+        <div className="space-y-7 m-auto w-2/3 lg:w-1/2">
           <h4 className="text-4xl text-primaryText font-sans text-center font-bold">
             {title}
           </h4>

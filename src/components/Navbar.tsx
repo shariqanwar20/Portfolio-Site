@@ -74,7 +74,7 @@ export default () => {
                 <Link
                   key={item.name}
                   to={`/${item.href}`}
-                  className="text-secondaryText hover:text-alternateText px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-secondaryText hover:text-alternateText block px-3 py-2 rounded-md text-base font-medium"
                   aria-current={item.current ? "page" : undefined}
                   activeClassName="bg-alternateText text-primaryText"
                 >

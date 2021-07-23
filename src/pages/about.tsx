@@ -25,7 +25,7 @@ export default () => {
             <div className="font-bold text-3xl text-primaryText font-sans">
               Hi There
             </div>
-            <div className="text-x1 text-primaryText w-3/4">
+            <div className="text-x1 text-primaryText w-4/5">
               In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at
               sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id
               efficitur sagittis, urna est ultricies eros, ac porta sem turpis
