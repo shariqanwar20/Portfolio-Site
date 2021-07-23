@@ -28,7 +28,7 @@ export default () => {
           ))}
         </div>
 
-        <form className="w-full lg:w-4/5 px-5 mx-auto space-y-6">
+        <form className="w-full lg:w-4/5 px-5 mx-auto space-y-6 py-12">
           <div className="lg:grid lg:grid-cols-2 lg:gap-2 justify-center text-center">
             <input
               type="text"
