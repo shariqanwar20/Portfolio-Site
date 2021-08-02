@@ -33,7 +33,7 @@ export default () => {
                     <ul className="inline-flex">
                         <li>
                         <button className="py-4 px-4 text-lg md:text-xl md:px-10 text-center font-semibold rounded-full shadow-md text-primaryText border-2 border-alternateText hover:bg-alternateText">
-                            My Projects
+                            My Projects 
                         </button>
                         </li>
                         <li className="m-auto px-10">
