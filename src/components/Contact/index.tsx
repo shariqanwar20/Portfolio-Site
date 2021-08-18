@@ -2,6 +2,7 @@ import React from "react";
 import ContactCard from "./ContactCard";
 import Header from "../Services/Header";
 import contacts from "../../data/contact.json";
+import { LocationMarkerIcon, PhoneIcon, MailIcon } from "@heroicons/react/solid";
 
 export default () => {
   return (
@@ -26,6 +27,7 @@ export default () => {
               title={contact.title}
               description={contact.description}
               backgroundColor="secondaryBg"
+              icon={contact.icon}
               key={i}
             />
           ))}

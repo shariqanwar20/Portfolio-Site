@@ -1,14 +1,17 @@
 [
     {
         "title": "Locate Us",
-        "description": "King Street, Melbourne Victoria"
+        "description": "Karachi, Pakistan",
+        "icon": "location"
     },
     {
         "title": "Give us a Call",
-        "description": "Office: +92-3352905074"
+        "description": "Office: +92-12345678",
+        "icon": "phone"
     },
     {
         "title": "Get In Online",
-        "description": "contact@example.com"
+        "description": "shariqanwar59@gmail.com",
+        "icon": "mail"
     }
 ]
