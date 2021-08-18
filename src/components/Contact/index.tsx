@@ -33,22 +33,20 @@ export default () => {
 
         <form
           className="w-full lg:w-4/5 px-5 mx-auto space-y-6 py-12"
-          method="post"
-          netlify-honeypot="bot-field"
-          data-netlify="true"
-          name="contact"
+          method="POST"
+          action="https://getform.io/f/a7f21df9-fb16-4d6b-a991-3b381de09e29"
         >
-          <input type="hidden" name="bot-field" />
-          <input type="hidden" name="form-name" value="contact" />
           <div className="lg:grid lg:grid-cols-2 lg:gap-2 justify-center text-center">
             <input
               type="text"
+              name="name"
               placeholder="Your Name"
               className="w-full my-6 lg:my-0 bg-secondaryBg rounded text-primaryText focus:ring-primaryText focus:ring-6 focus:ring-offset-0 pl-4 font-semibold text-xl"
               style={{ height: "4.1rem" }}
             />
             <input
               type="text"
+              name="email"
               placeholder="Your Email"
               className="w-full my-6 lg:my-0 bg-secondaryBg rounded text-primaryText focus:ring-primaryText focus:ring-6 focus:ring-offset-0 pl-4 font-semibold text-xl"
               style={{ height: "4.1rem" }}
@@ -58,6 +56,7 @@ export default () => {
             <input
               type="text"
               placeholder="Your Subject"
+              name="subject"
               className="w-full bg-secondaryBg rounded text-primaryText focus:ring-primaryText focus:ring-6 focus:ring-offset-0 pl-4 font-semibold text-xl"
               style={{ height: "4.1rem" }}
             />
@@ -65,11 +64,12 @@ export default () => {
           <div>
             <textarea
               placeholder="Your Message"
+              name="message"
               className="w-full bg-secondaryBg rounded text-primaryText focus:ring-primaryText focus:ring-6 focus:ring-offset-0 pl-4 font-semibold text-xl"
               style={{ height: "8.1rem" }}
             />
           </div>
-          <button className="py-4 px-4 text-lg md:text-xl md:px-10 text-center font-semibold rounded-full shadow-md text-primaryText border-2 border-alternateText hover:bg-alternateText">
+          <button type="submit" className="py-4 px-4 text-lg md:text-xl md:px-10 text-center font-semibold rounded-full shadow-md text-primaryText border-2 border-alternateText hover:bg-alternateText">
             Send Message
           </button>
         </form>
