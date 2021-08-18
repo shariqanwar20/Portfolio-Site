@@ -1,13 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
-import { Link } from "gatsby";
+import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 const navigation = [
-  { name: "Home", href: "", current: true },
+  { name: "Home", href: "home", current: false },
   { name: "Services", href: "services", current: false },
   { name: "About", href: "about", current: false },
   { name: "Skills", href: "skills", current: false },
+  { name: "Projects", href: "projects", current: false },
+  { name: "Experience", href: "experience", current: false },
   { name: "Contact", href: "contact", current: false },
 ];
 
@@ -16,8 +18,10 @@ function classNames(...classes) {
 }
 
 export default () => {
+  // const [activeLink, setActiveLink] = useState(navigation[0].href);
+
   return (
-    <Disclosure as="nav" className="bg-primaryBg fixed w-full">
+    <Disclosure as="nav" className="bg-primaryBg fixed w-full z-10">
       {({ open }) => (
         <>
           <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -52,15 +56,22 @@ export default () => {
                 <div className="hidden sm:block sm:ml-6">
                   <div className="flex space-x-4">
                     {navigation.map((item) => (
-                      <Link
+                      <AnchorLink
                         key={item.name}
-                        to={`/${item.href}`}
-                        className="text-secondaryText hover:text-alternateText px-3 py-2 rounded-md text-sm font-medium"
+                        to={`/#${item.href}`}
+                        className={
+                          // item.href === activeLink
+                            // ? `bg-alternateText text-primaryText block px-3 py-2 rounded-md text-base font-medium`
+                            "text-secondaryText hover:text-alternateText block px-3 py-2 rounded-md text-base font-medium"
+                        }
                         aria-current={item.current ? "page" : undefined}
-                        activeClassName="bg-alternateText text-primaryText hover:text-primaryText"
+                        stripHash
+                        // onAnchorLinkClick={() => {
+                        //   setActiveLink(item.href);
+                        // }}
                       >
                         {item.name}
-                      </Link>
+                      </AnchorLink>
                     ))}
                   </div>
                 </div>
@@ -71,15 +82,22 @@ export default () => {
           <Disclosure.Panel className="sm:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
-                <Link
+                <AnchorLink
                   key={item.name}
-                  to={`/${item.href}`}
-                  className="text-secondaryText hover:text-alternateText block px-3 py-2 rounded-md text-base font-medium"
+                  to={`/#${item.href}`}
+                  className={
+                    // item.href === activeLink
+                      // ? `bg-alternateText text-primaryText block px-3 py-2 rounded-md text-base font-medium`
+                      "text-secondaryText hover:text-alternateText block px-3 py-2 rounded-md text-base font-medium"
+                  }
                   aria-current={item.current ? "page" : undefined}
-                  activeClassName="bg-alternateText text-primaryText"
+                  stripHash
+                  // onAnchorLinkClick={() => {
+                  //   setActiveLink(item.href);
+                  // }}
                 >
                   {item.name}
-                </Link>
+                </AnchorLink>
               ))}
             </div>
           </Disclosure.Panel>

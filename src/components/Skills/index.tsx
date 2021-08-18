@@ -4,7 +4,7 @@ import skills from "../../data/skills.json";
 
 export default () => {
   return (
-    <>
+    <div id="skills">
       <div className="flex-initial lg:grid lg:grid-cols-2 lg:block justify-center bg-primaryBg py-5 space-y-8">
         <div>
           <div className="font-sans text-alternateText pt-5 font-semibold w-full px-5 lg:m-auto lg:w-1/2">
@@ -40,6 +40,6 @@ export default () => {
           })}
         </div>
       </div>
-    </>
+    </div>
   );
 };

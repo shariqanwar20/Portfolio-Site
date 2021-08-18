@@ -5,7 +5,7 @@ import services from "../../data/services.json";
 
 export default () => {
   return (
-    <>
+    <div id="services">
       <div className="bg-primaryBg font-sans text-alternateText py-5 text-center font-semibold">
         SERVICES
       </div>
@@ -21,6 +21,6 @@ export default () => {
           );
         })}
       </div>
-    </>
+    </div>
   );
 };

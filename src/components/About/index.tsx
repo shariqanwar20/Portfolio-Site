@@ -5,7 +5,7 @@ import about from "../../data/about.json";
 export default () => {
   return (
     <>
-      <div>
+      <div id="about">
         <Header
           title="About Me"
           description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text."

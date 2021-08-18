@@ -5,7 +5,7 @@ import contacts from "../../data/contact.json";
 
 export default () => {
   return (
-    <>
+    <div id="contact">
       <div className="bg-primaryBg space-y-6 py-5">
         <div className="bg-primaryBg font-sans text-alternateText pt-5 text-center font-semibold">
           HAVE ANY QUERY?
@@ -63,6 +63,6 @@ export default () => {
           </button>
         </form>
       </div>
-    </>
+    </div>
   );
 };

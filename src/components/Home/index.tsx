@@ -8,7 +8,7 @@ export default () => {
     return (
         <div>
             <Navbar />
-            <div className="lg:grid lg:grid-cols-5 bg-secondaryBg pt-10">
+            <div className="lg:grid lg:grid-cols-5 bg-secondaryBg pt-10" id="home">
                 <div className="space-y-10 lg:col-span-3 mx-10 my-auto py-10">
                     <div className="flex flex-wrap space-x-4 pt-10">
                         <span className="border-2 rounded-full  px-3 py-3 border-alternateText hover:bg-alternateText">

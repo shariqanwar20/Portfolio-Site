@@ -14,7 +14,7 @@ export default () => {
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2,
+      items: 1,
       slidesToSlide: 1, // optional, default to 1.
     },
     mobile: {
@@ -25,7 +25,7 @@ export default () => {
   };
 
   return (
-    <div className="bg-primaryBg py-10">
+    <div id="projects" className="bg-primaryBg py-10">
       <Header
         title="My Projects"
         description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text."
@@ -34,7 +34,7 @@ export default () => {
       <Carousel
         swipeable={true}
         draggable={false}
-        showDots={true}
+        showDots={false}
         responsive={responsive}
         ssr={true}
         infinite={true}
