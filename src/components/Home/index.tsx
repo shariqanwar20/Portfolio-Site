@@ -25,10 +25,10 @@ export default () => {
                         </span>
                     </div>
                     <div className="font-extrabold text-6xl lg:text-7xl text-primaryText">
-                        I am Jonathan Doe
+                        I am Shariq Anwar
                     </div>
                     <div className="font-semibold text-2xl text-secondaryText lg:w-2/3">
-                        i,m Jonathan, professional web developer with long time experience in this field​
+                        I'm Shariq, professional web developer with long time experience in this field​
                     </div>
                     <ul className="inline-flex">
                         <li>

@@ -15,9 +15,12 @@ export default () => {
           description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text."
           backgroundColor="primaryBg"
         />
-        <div className="space-y-4 md:grid md:grid-flow-row md:grid-cols-3 md:space-y-0 md:gap-x-2 mx-auto" style={{
-          width: "95%"
-        }}>
+        <div
+          className="space-y-4 md:grid md:grid-flow-row md:grid-cols-3 md:space-y-0 md:gap-x-2 mx-auto"
+          style={{
+            width: "95%",
+          }}
+        >
           {contacts.map((contact, i) => (
             <ContactCard
               title={contact.title}
@@ -28,7 +31,15 @@ export default () => {
           ))}
         </div>
 
-        <form className="w-full lg:w-4/5 px-5 mx-auto space-y-6 py-12">
+        <form
+          className="w-full lg:w-4/5 px-5 mx-auto space-y-6 py-12"
+          method="post"
+          netlify-honeypot="bot-field"
+          data-netlify="true"
+          name="contact"
+        >
+          <input type="hidden" name="bot-field" />
+          <input type="hidden" name="form-name" value="contact" />
           <div className="lg:grid lg:grid-cols-2 lg:gap-2 justify-center text-center">
             <input
               type="text"
