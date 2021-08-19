@@ -21,9 +21,12 @@ export default () => {
                 ante ipsum primis in faucibus orci luctus et ultrices posuere
                 cubilia Curae
               </p>
-              <button className="py-2 px-4 m-auto font-semibold rounded-full shadow-md text-primaryText border-2 border-alternateText hover:bg-alternateText">
-                Hire Me Now
-              </button>
+              <br />
+              <a href="https://www.fiverr.com/shariqanwar20" target="_blank" className="py-2 m-auto">
+                <button className="py-2 px-4 m-auto font-semibold rounded-full shadow-md text-primaryText border-2 border-alternateText hover:bg-alternateText">
+                  Hire Me Now
+                </button>
+              </a>
             </div>
           </div>
         </div>
