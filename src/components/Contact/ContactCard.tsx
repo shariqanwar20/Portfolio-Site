@@ -1,5 +1,5 @@
 import { LocationMarkerIcon, MailIcon, PhoneIcon } from "@heroicons/react/solid";
-import React, { useState } from "react";
+import React from "react";
 
 type ContactCardProps = {
   title: string;
@@ -10,7 +10,6 @@ type ContactCardProps = {
 
 
 export default ({ title, description, backgroundColor, icon }: ContactCardProps) => {
-
   const getSvgIcon = () => {
     switch (icon) {
       case "location":

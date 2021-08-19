@@ -5,12 +5,13 @@ module.exports = {
     extend: {
       keyframes: {
         wiggle: {
-          '0%, 100%': { transform: 'rotate(-180deg)' },
-          '50%': { transform: 'rotate(180deg)' },
+          '0%, 100%': { transform: 'rotate(0deg)' },
+          '25%': { transform: 'rotate(30deg)' },
+          "75%": { transform: 'rotate(-30deg)' },
         }
        },
        animation: {
-        wiggle: 'wiggle 1s ease-in-out infinite',
+        wiggle: 'wiggle 1s ease-in-out',
        }
     },
     colors: {
