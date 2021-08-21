@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { Disclosure } from "@headlessui/react";
 import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
-
+import logoOnSmallScreen from '../../images/workflow-mark-indigo-500.svg'
+import logoOnLargeScreen from '../../images/workflow-logo-indigo-500-mark-white-text.svg'
 const navigation = [
   { name: "Home", href: "home", current: false },
   { name: "Services", href: "services", current: false },
@@ -40,16 +41,16 @@ export default () => {
                   )}
                 </Disclosure.Button>
               </div>
-              <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+              <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-between">
                 <div className="flex-shrink-0 flex items-center">
                   <img
-                    className="block lg:hidden h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
+                    className="block lg:hidden h-8 w-auto text-primaryBg"
+                    src={logoOnSmallScreen}
                     alt="Workflow"
                   />
                   <img
                     className="hidden lg:block h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-logo-indigo-500-mark-white-text.svg"
+                    src={logoOnLargeScreen}
                     alt="Workflow"
                   />
                 </div>

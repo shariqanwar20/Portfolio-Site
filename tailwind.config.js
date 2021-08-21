@@ -17,10 +17,11 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      primaryBg: "#1f2235",
-      secondaryBg: "#23263a",
-      alternateText: "#ff4a57",
-      secondaryText:"#dedebe",
+      primaryBg: "#010409",
+      secondaryBg: "#0D1117",
+      tertiaryBg: "#04070c",
+      alternateText: "#2EA043",
+      secondaryText:"#DBDBDC",
       primaryText: "#ffffff"
     }
   },

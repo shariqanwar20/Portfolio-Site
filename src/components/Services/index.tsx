@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import Header from "./Header";
 import services from "../../data/services.json";
+import logo from '../../images/workflow-mark-indigo-500.svg'
 
 export default () => {
   return (
@@ -14,7 +15,7 @@ export default () => {
         {services.map((service) => {
           return (
             <Card
-              imgSrc={service.imgSrc}
+              imgSrc={logo}
               title={service.title}
               description={service.description}
             />
