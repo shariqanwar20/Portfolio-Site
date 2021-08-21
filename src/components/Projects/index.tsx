@@ -4,6 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import Card from "../Services/Card";
 import services from "../../data/services.json";
 import Header from "../Services/Header";
+import logo from '../../images/workflow-mark-indigo-500.svg'
 
 export default () => {
   const responsive = {
@@ -51,7 +52,7 @@ export default () => {
         {services.map((service) => {
           return (
             <Card
-              imgSrc={service.imgSrc}
+              imgSrc={logo}
               title={service.title}
               description={service.description}
             />
