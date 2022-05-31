@@ -7,5 +7,7 @@ module.exports = {
         options: {
             offset: -100
         }
-    }],
+    }, `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`],
 }

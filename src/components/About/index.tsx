@@ -1,21 +1,22 @@
 import React from "react";
 import Header from "../Services/Header";
-import about from "../../data/about.json";
+// import about from "../../data/about.json";
+import data from '../../../data.json'
 
 export default () => {
   return (
     <>
       <div id="about">
         <Header
-          title="About Me"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text."
+          title="About"
+          description={""}
           backgroundColor="secondaryBg"
         />
 
         <div className="flex flex-wrap lg:grid lg:grid-cols-2 lg:block justify-center bg-secondaryBg py-5">
           <img
             className="mx-auto"
-            src="https://themebing.com/html/amike/assets/images/me-01-alt.png"
+            src={data.about.image}
             alt="About Me"
           />
           <div className="py-12 space-y-7 mx-5">
@@ -23,16 +24,11 @@ export default () => {
               Hi There
             </div>
             <div className="text-x1 text-primaryText w-full">
-              In id nulla magna. Nullam posuere fermentum mattis. Nunc id dui at
-              sapien faucibus fermentum ut vel diam. Nullam tempus, nunc id
-              efficitur sagittis, urna est ultricies eros, ac porta sem turpis
-              {"\n"}
-              nunc id efficitur sagittis, urna est ultricies eros, ac porta sem
-              turpis porta sem turpis quis leo. Nulla in feugiat elit
+             {data.about.description}
             </div>
             <div>
               <ul className="flex flex-wrap flex-col space-y-6 lg:grid lg:grid-cols-2 lg:block lg:space-y-0">
-                {about.map((field, i) => {
+                {data.about.contact.map((field, i) => {
                   return (
                     <li className="pb-4" key={i}>
                       <div>

@@ -7,20 +7,19 @@ import Contact from '../components/Contact';
 import Footer from '../components/Footer';
 import Experience from '../components/Experience';
 import Projects from '../components/Projects';
+import Certifications from '../components/Certifications';
 
 export default () => {
     return (
         <>
             <Home />
+            <Certifications />
             <Services />
             <About />
             <Skills />
-            {/* Projects */}
             <Projects />
-            {/* Experience Bar */}
-            <Experience />
+            {/* <Experience /> */}
             <Contact />
-            {/* footer */}
             <Footer />
         </>
     );

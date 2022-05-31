@@ -4,6 +4,8 @@ import { BsPlayFill } from "react-icons/bs";
 import SocialMediaLinks from "./SocialMediaLinks";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
+import data from '../../../data.json'
+
 export default () => {
   return (
     <div>
@@ -14,11 +16,10 @@ export default () => {
             <SocialMediaLinks />
           </div>
           <div className="font-extrabold text-6xl lg:text-7xl text-primaryText">
-            I am Shariq Anwar
+            I am {data.home.name}
           </div>
           <div className="font-semibold text-2xl text-secondaryText lg:w-2/3">
-            I'm Shariq, professional full stack serverless developer with long time experience in
-            this field​
+          {data.home.description}
           </div>
           <ul className="inline-flex">
             <li className="m-auto w-max">
@@ -31,7 +32,7 @@ export default () => {
             </li>
             <li className="m-auto px-6 sm:p-10">
               <a
-                href="https://www.youtube.com/channel/UCe4D1fLsJzgbsOHGMd7LGYg"
+                href={`${data.home.introVideo}`}
                 target="_blank"
               >
                 <button className="py-3 px-3 sm:px-9 text-xl text-center font-semibold rounded-full shadow-md text-primaryText border-2 hover:border-alternateText bg-alternateText">
@@ -43,7 +44,7 @@ export default () => {
         </div>
         <img
           className="hidden lg:block lg:mx-auto lg:col-span-2"
-          src="https://themebing.com/html/amike/assets/images/man-01.png"
+          src={data.home.profilePicture}
           alt="Profile Picture"
         />
       </div>

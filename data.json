@@ -1,0 +1,41 @@
+{
+    "home": {
+        "name": "",
+        "description": "",
+        "introVideo": "",
+        "profilePicture": "",
+        "socialMedia": {
+            "facebook": "",
+            "twitter": "",
+            "linkedin": "",
+            "github": ""
+        }
+    },
+    "experience": {
+        "title": "",
+        "description": "",
+        "experiences": [
+            {
+                "logo": "",
+                "title": "",
+                "description": ""
+            }
+        ]
+    },
+    
+    "projects": {},
+    "certificates": {},
+    "about": {
+        "title": "",
+        "description": "flex flex-wrap lg:grid lg:grid-cols-2 lg:block justify-center bg-secondaryBg py-5",
+        "image": "",
+        "contact": [
+            {"title": "Name: ", "value": ""},
+            {"title": "Email: ", "value": ""},
+            {"title": "Phone: ", "value": ""}
+        ]
+    
+    },
+    "education": {},
+    "contact": {}
+}
