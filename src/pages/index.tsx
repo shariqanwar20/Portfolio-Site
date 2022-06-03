@@ -12,15 +12,15 @@ import Certifications from '../components/Certifications';
 export default () => {
     return (
         <>
-            <Home />
-            <Certifications />
+            <Home /> {/* done */}
+            <Certifications /> {/* done */}
             <Services />
             <About />
             <Skills />
-            <Projects />
+            <Projects /> {/* done */}
             {/* <Experience /> */}
-            <Contact />
-            <Footer />
+            <Contact /> {/* done */}
+            <Footer /> {/* done */}
         </>
     );
 }

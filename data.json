@@ -1,41 +1,125 @@
 {
-    "home": {
-        "name": "",
-        "description": "",
-        "introVideo": "",
-        "profilePicture": "",
-        "socialMedia": {
-            "facebook": "",
-            "twitter": "",
-            "linkedin": "",
-            "github": ""
-        }
-    },
-    "experience": {
+  "navigation": [
+    "Home",
+    "Certifications",
+    "Experience",
+    "About",
+    "Projects",
+    "Contact"
+  ],
+  "home": {
+    "name": "",
+    "description": "",
+    "introVideo": "",
+    "profilePicture": "",
+    "socialMedia": {
+      "facebook": "",
+      "twitter": "",
+      "linkedin": "",
+      "github": ""
+    }
+  },
+  "experience": {
+    "header": "",
+    "subHeader": "",
+    "experiences": [
+      {
+        "logo": "",
+        "title": "",
+        "description": ""
+      }
+    ]
+  },
+
+  "projects": {
+    "header": "",
+    "subHeader": "",
+    "projects": [
+      {
         "title": "",
         "description": "",
-        "experiences": [
-            {
-                "logo": "",
-                "title": "",
-                "description": ""
-            }
-        ]
-    },
-    
-    "projects": {},
-    "certificates": {},
-    "about": {
+        "logo": "",
+        "link": ""
+      },
+      {
         "title": "",
-        "description": "flex flex-wrap lg:grid lg:grid-cols-2 lg:block justify-center bg-secondaryBg py-5",
-        "image": "",
-        "contact": [
-            {"title": "Name: ", "value": ""},
-            {"title": "Email: ", "value": ""},
-            {"title": "Phone: ", "value": ""}
-        ]
-    
-    },
-    "education": {},
-    "contact": {}
+        "description": "",
+        "logo": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "description": "",
+        "logo": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "description": "",
+        "logo": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "description": "",
+        "logo": "",
+        "link": ""
+      },
+      {
+        "title": "",
+        "description": "",
+        "logo": "",
+        "link": ""
+      }
+    ]
+  },
+  "certifications": {
+    "header": "",
+    "subHeader": "",
+    "certificates": [
+      {
+        "title": "",
+        "description": "",
+        "image": "../../images/munCertificate.png"
+      },
+      {
+        "title": "",
+        "description": "",
+        "image": "../../images/munCertificate.png"
+      }
+    ]
+  },
+  "about": {
+    "header": "",
+    "subHeader": "",
+    "image": "",
+    "contact": [
+      { "title": "Name: ", "value": "" },
+      { "title": "Email: ", "value": "" },
+      { "title": "Phone: ", "value": "" }
+    ]
+  },
+  "education": {},
+  "contact": {
+    "header": "",
+    "subHeader": "",
+    "endPoint": "https://getform.io/f/60b73451-9b1d-486b-8958-39774c08abb1",
+    "details": [
+      {
+        "title": "Locate Us",
+        "description": "YOUR LOCATION/CITY/COUNTRY",
+        "icon": "location"
+      },
+      {
+        "title": "Give us a Call",
+        "description": "Office: YOUR PHONE NUMBER",
+        "icon": "phone"
+      },
+      {
+        "title": "Get In Online",
+        "description": "YOUR_EMAIL",
+        "icon": "mail"
+      }
+    ]
+  }
 }

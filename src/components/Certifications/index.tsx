@@ -1,8 +1,8 @@
 import React from "react";
 import Card from "./Card";
-import Header from "./Header";
-import services from "../../data/services.json";
-import logo from '../../images/workflow-mark-indigo-500.svg'
+import Header from "../Services/Header";
+
+import { certifications } from '../../../data.json'
 
 export default () => {
   return (
@@ -10,14 +10,14 @@ export default () => {
       <div className="bg-primaryBg font-sans text-alternateText py-5 text-center font-semibold">
         CERTIFICATIONS
       </div>
-      <Header title="My Services" description={services[0].description} backgroundColor="primaryBg"/>
+      <Header title={certifications.header} description={certifications.subHeader} backgroundColor="primaryBg"/>
       <div className="flex flex-wrap bg-primaryBg justify-center">
-        {services.map((service) => {
+        {certifications.certificates.map((certificate) => {
           return (
             <Card
-              imgSrc={logo}
-              title={service.title}
-              description={service.description}
+              imgSrc={certificate.image}
+              title={certificate.title}
+              description={certificate.description}
             />
           );
         })}

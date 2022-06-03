@@ -1,8 +1,9 @@
 import React from "react";
 import ContactCard from "./ContactCard";
 import Header from "../Services/Header";
-import contacts from "../../data/contact.json";
+// import contacts from "../../data/contact.json";
 import { LocationMarkerIcon, PhoneIcon, MailIcon } from "@heroicons/react/solid";
+import { contact } from '../../../data.json'
 
 export default () => {
   return (
@@ -12,8 +13,8 @@ export default () => {
           HAVE ANY QUERY?
         </div>
         <Header
-          title="Contact Me"
-          description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text."
+          title={contact.header}
+          description={contact.subHeader}
           backgroundColor="primaryBg"
         />
         <div
@@ -22,7 +23,7 @@ export default () => {
             width: "95%",
           }}
         >
-          {contacts.map((contact, i) => (
+          {contact.details.map((contact, i) => (
             <ContactCard
               title={contact.title}
               description={contact.description}
@@ -36,7 +37,7 @@ export default () => {
         <form
           className="w-full lg:w-4/5 px-5 mx-auto space-y-6 py-12"
           method="POST"
-          action="https://getform.io/f/a7f21df9-fb16-4d6b-a991-3b381de09e29"
+          action={contact.endPoint}
         >
           <div className="lg:grid lg:grid-cols-2 lg:gap-2 justify-center text-center">
             <input

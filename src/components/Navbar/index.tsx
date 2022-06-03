@@ -6,11 +6,13 @@ import logoOnSmallScreen from '../../images/workflow-mark-indigo-500.svg'
 import logoOnLargeScreen from '../../images/workflow-logo-indigo-500-mark-white-text.svg'
 const navigation = [
   { name: "Home", href: "home", current: false },
-  { name: "Services", href: "services", current: false },
-  { name: "About", href: "about", current: false },
-  { name: "Skills", href: "skills", current: false },
-  { name: "Projects", href: "projects", current: false },
+  { name: "Certifications", href: "certifications", current: false },
+  // { name: "Services", href: "services", current: false },
   { name: "Experience", href: "experience", current: false },
+  { name: "About", href: "about", current: false },
+  // { name: "Skills", href: "skills", current: false },
+  { name: "Projects", href: "projects", current: false },
+  // { name: "Experience", href: "experience", current: false },
   { name: "Contact", href: "contact", current: false },
 ];
 

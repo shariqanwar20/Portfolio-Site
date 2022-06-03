@@ -1,10 +1,10 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Card from "../Services/Card";
-import services from "../../data/services.json";
+import Card from "./Card";
 import Header from "../Services/Header";
-import logo from '../../images/workflow-mark-indigo-500.svg'
+
+import {projects} from "../../../data.json";
 
 export default () => {
   const responsive = {
@@ -28,8 +28,8 @@ export default () => {
   return (
     <div id="projects" className="bg-primaryBg py-10">
       <Header
-        title="My Projects"
-        description="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum standard dummy text."
+        title={projects.header}
+        description={projects.subHeader}
         backgroundColor="primaryBg"
       />
       <Carousel
@@ -49,12 +49,13 @@ export default () => {
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-40-px"
       >
-        {services.map((service) => {
+        {projects.projects.map((project) => {
           return (
             <Card
-              imgSrc={logo}
-              title={service.title}
-              description={service.description}
+              imgSrc={project.logo}
+              title={project.title}
+              description={project.description}
+              link={project.link}
             />
           );
         })}

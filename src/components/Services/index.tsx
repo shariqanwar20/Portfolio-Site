@@ -10,7 +10,7 @@ export default () => {
       <div className="bg-primaryBg font-sans text-alternateText py-5 text-center font-semibold">
         EXPERIENCES
       </div>
-      <Header title={data.experience.title} description={data.experience.description} backgroundColor="primaryBg"/>
+      <Header title={data.experience.header} description={data.experience.subHeader} backgroundColor="primaryBg"/>
       <div className="flex flex-wrap bg-primaryBg justify-center">
         {data.experience.experiences.map((experience) => {
           return (
