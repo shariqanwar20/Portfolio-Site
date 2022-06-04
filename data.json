@@ -42,34 +42,34 @@
         "link": "https://github.com/Zohaib58/To-Do-Application"
       },
       {
-        "title": "",
-        "description": "",
+        "title": "8-Queen Problem",
+        "description": "Implemented a program in python to solve the 8 Queens Problem using a genetic algorithm. \n The aim of the N-Queens Problem is to place N queens on an N x N board, in a way so that none of them can attack the other (means when any queen moves in directions vertical, \n horizontal and diagonal no other queen found in the path)",
         "logo": "",
-        "link": ""
+        "link": "https://github.com/Zohaib58/Python-AI-Data-Science--Projs/tree/master/AI%20Algorithmic%20Problems/Genetic%20Algorithm"
       },
       {
-        "title": "",
-        "description": "",
+        "title": "Graph & Frog Puzzle Solution",
+        "description": "Tracking path to the destination in map(graph) through DFS, BFS and IDS algos \n Solving Frog Puzzle problem through DFS, BFS and IDS",
         "logo": "",
-        "link": ""
+        "link": "https://github.com/Zohaib58/Python-AI-Data-Science--Projs/tree/master/AI%20Algorithmic%20Problems/Graph%20%26%20Jumping%20Frog%20Puzzle"
       },
       {
-        "title": "",
-        "description": "",
+        "title": "Bank Management System",
+        "description": "Includes operations for Admin Panel, Staff Panel & ATM Services. To cater the suggestions/complains of Users we designed a complain-box as well. This was all done in Java Language with Swing Library for the UI.\nTest data contained accounts of 5000 users with more than 100k records of transactions which were catered through Hash Tables to keep Big O close to O(1).",
         "logo": "",
-        "link": ""
+        "link": "https://www.linkedin.com/posts/zohaib-azam-55212a1b2_bank-management-system-activity-6887847611781394432-zjKM/?utm_source=linkedin_share&utm_medium=android_app \n https://github.com/shariqanwar20/Bank-Management-System"
       },
       {
-        "title": "",
-        "description": "",
+        "title": "Solutions to CS50x2021 Projects",
+        "description": "This repository contains solutions to the problem questions in the Intro to Computer Science Course offered by Harvard University. The solutions provided should not be used for unfair practises.",
         "logo": "",
-        "link": ""
+        "link": "https://github.com/Zohaib58/CS50X2021"
       },
       {
-        "title": "",
-        "description": "",
+        "title": "Solutions to Java Projects of Princeton University",
+        "description": "This project contains solutions in JAVA to the problem questions in the Intro to Computer Science Course offered by Princeton University. The solutions provided are tailored according to the sequence followed by the slides of this course",
         "logo": "",
-        "link": ""
+        "link": "https://github.com/Zohaib58/Solutions-to-JAVA-Projects-of-Intro-to-CS-by-Princeton-University"
       }
     ]
   },
