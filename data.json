@@ -78,15 +78,57 @@
     "subHeader": "",
     "certificates": [
       {
-        "title": "",
-        "description": "",
-        "image": "../../images/munCertificate.png"
+        "title": "SAP ABAP Course from Omni Academy",
+        "description": "Completed two months course on Advanced Business Application Programming Module of SAP, 2019",
+        "image": "../../images/SAP.png"
       },
       {
-        "title": "",
+        "title": "Introduction to Computer Science by Harvard University (CS50x2021)",
+        "description": "Solutions to the projects of CS50x2021 are available on my repository. Use for unfair means is discouraged.\nLink: https://github.com/Zohaib58/CS50X2021",
+        "image": ""
+      },
+      {
+        "title": "Introduction to AI by Andrew NG",
+        "description": "Verification Link:\nhttps://www.coursera.org/account/accomplishments/certificate/82THRYF8BF",
+        "image": "../../images/AI.png"
+      },
+      {
+        "title": "Python for Data Science, AI and Development",
+        "description": "Verification Link:\nhttps://www.coursera.org/account/accomplishments/certificate/ZWBPXR4K3E6M",
+        "image": "../../images/IBMAI.png"
+      },
+      {
+        "title": "Artificial Intelligence and Data Science by PIAIC",
+        "description": "Currently in Quarter 4 (last quarter) of Artificial Intelligence & Data Science Program offered \nby Presidential Initiative of Artifical Intelligence and Computing. \nLink: https://www.piaic.org/artificial-inteligence",
+        "image": ""
+      },
+      
+      {
+        "title": "Deep Learning by Andrew NG",
         "description": "",
-        "image": "../../images/munCertificate.png"
+        "image": ""
+      },
+      {
+        "title": "Game Development through OOP in C#",
+        "description": "Completed this course with an alien shooting game as Final Project through EXIIT \n(Karachi University's department UBIT run organization), 2017",
+        "image": "../../images/Exiit.png"
+      },
+      {
+        "title": "Honorary Mention Award in IU MUN",
+        "description": "Received Honorary Mention Award in Iqra University Model United Nations in United Nations Security Council Comittee, 2016",
+        "image": "../../images/IUmunCertificate.png"
+      },
+      {
+        "title": "Best Delegate Award in PATS MUN",
+        "description": "Received Best Delegate Award in St Patrick's Model United Nations in Pakistan National Assembly Comittee, 2016",
+        "image": "../../images/PatsMunCertif.png"
+      },
+      {
+        "title": "Make a Wish",
+        "description": "Volunteer Work:\nOrganised drives to the hospital to visit children suffering from multiple illnesses.\nCollected their data: Illness, Medical History and their wishes\nRan Donation Campaigns in the University and other places to generate funds to fulfill wishes of those children \nLead donation drives,2021",
+        "image": "../../images/MakeAWish.png"
       }
+      
     ]
   },
   "about": {
