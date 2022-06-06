@@ -9,9 +9,9 @@
   ],
   "home": {
     "name": "Zohaib Azam",
-    "description": "",
+    "description": "I am an Aspiring Computer Scientist. Currently I am serving as Techno-Functional resource at 3STEM and \n as a Technical Lead at Google Developer Student Club. Looking forward to collaborate on SAP/Data Science and Blockchain Projects.",
     "introVideo": "",
-    "profilePicture": "",
+    "profilePicture": "../../images/DP.png",
     "socialMedia": {
       "facebook": "",
       "twitter": "",
@@ -25,8 +25,33 @@
     "experiences": [
       {
         "logo": "",
-        "title": "",
-        "description": ""
+        "title": "3STEM",
+        "description": "https://www.3stem.com/"
+      },
+      {
+        "logo": "",
+        "title": "SAP Techno-Functional Resource at 3STEM",
+        "description": "Involvement in Warehouse Management Module of SAP:\n 1. Configuration of Warehouse Management architecture - Warehouse structure in WM system, Basic stock management, Production Staging, Warehouse Movements, Put-away and Picking Strategies, Storage Unit Management & RF process.\n 2. Worked on Inbound Processes like Goods Receipts and Put-away Activities. \n 3. Worked on Outbound Processes like Picking, Packaging and Goods issues. \n 4. Prepared Functional Specs and user manuals. \n 5. Involved in Cut-over activities. \n 6. Involved in Go-live support activities. \n 7. Prepared Functional Specs and user manuals. \n 8. Trained New Company Recruits for WM module. \n 9. Knowledge on WM integrations with other modules MM, PP, QM & SD. \n 10. Solved tickets on Production Issues assigned on daily basis. \n \n \nInvolvement in Material Management Module of SAP: \n 1. Involved in master data setup of BPs, Materials etc. \n 2. Configuration of Business Partner, Pricing Procedure. \n \n \nInvolvement in Advanced Business Application Module of SAP: \n 1. Have to understand functional errors in technical terms and resolve on priority basis. \n 2. Spot errors/lackings in the code of functional procedures to report to senior developer. \n 3. Directly involved in Quality Assurance Testing of newly build codes/features." 
+      },
+      {
+        "logo": "",
+        "title": "Google Developer Student Club",
+        "description": "Technical Lead and Core Team Member: \n 1. Delivered Data Analytics Sessions. \n 2. Organizational Supervisor. \n 3. Lead Organizer in the key event Hackfest 2022"
+      },
+      {
+        "logo": "",
+        "title": "Nixor Engineering Solutions",
+        "description": "https://yellow.place/en/nixor-engineering-solutions-karachi-pakistan \n 1. Building charging stations and installing them across the campus. \n 2. Rebuilding GoKart. \n 3. BioGas Fuel Generator. \n 4. Drafting SWOT Analysis for multiple projects. \n 5. Proposing and designing SWOT for Solar Panel Electric Generation and Mobile Detecting Device"
+      },
+      {
+        "logo": "",
+        "title": "Taleem Sabke Liye",
+        "description": "https://www.facebook.com/taleemsabkeliye/ \n 1. Served as a Project Lead on educating janitors and taught basic English & Maths needed in daily life (for banking etc) to a janitor assigned to me. \n 2. Served as Team Lead"
+      },
+      {
+        "logo": "",
+        "title": "Make a Wish",
+        "description": "Social Internship"
       }
     ]
   },
