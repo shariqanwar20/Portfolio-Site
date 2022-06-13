@@ -36,7 +36,7 @@ export default () => {
         <form
           className="w-full lg:w-4/5 px-5 mx-auto space-y-6 py-12"
           method="POST"
-          action={contact.endPoint}
+          action={data.contact.endPoint}
         >
           <div className="lg:grid lg:grid-cols-2 lg:gap-2 justify-center text-center">
             <input
