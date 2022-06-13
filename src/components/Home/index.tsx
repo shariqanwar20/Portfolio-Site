@@ -4,7 +4,7 @@ import { BsPlayFill } from "react-icons/bs";
 import SocialMediaLinks from "./SocialMediaLinks";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
-import data from '../../../data.json'
+import data from "../../../data.json";
 // const profilePic = require(data.home.profilePicture)
 import { StaticImage } from "gatsby-plugin-image";
 
@@ -21,7 +21,7 @@ export default () => {
             I am {data.home.name}
           </div>
           <div className="font-semibold text-2xl text-secondaryText lg:w-2/3">
-          {data.home.description}
+            {data.home.description}
           </div>
           <ul className="inline-flex">
             <li className="m-auto w-max">
@@ -33,10 +33,7 @@ export default () => {
               </AnchorLink>
             </li>
             <li className="m-auto px-6 sm:p-10">
-              <a
-                href={`${data.home.introVideo}`}
-                target="_blank"
-              >
+              <a href={`${data.home.introVideo}`} target="_blank">
                 <button className="py-3 px-3 sm:px-9 text-xl text-center font-semibold rounded-full shadow-md text-primaryText border-2 hover:border-alternateText bg-alternateText">
                   <BsPlayFill className="w-8 h-8" style={{ color: "white" }} />
                 </button>
@@ -49,7 +46,13 @@ export default () => {
           src={profilePic}
           alt="Profile Picture"
         /> */}
-         <StaticImage src="../../images/DP.jpeg" alt="Profile Picture" className="hidden lg:block lg:mx-auto lg:col-span-2 lg:m-4" />
+        <div className="hidden lg:block">
+          <StaticImage
+            src="../../images/DP.jpeg"
+            alt="Profile Picture"
+            className="hidden lg:block lg:mx-auto lg:col-span-2 lg:m-4"
+          />
+        </div>
       </div>
     </div>
   );
