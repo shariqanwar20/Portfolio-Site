@@ -1,6 +1,4 @@
 import React from 'react'
-import { IconType } from 'react-icons';
-import { IoIosPeople } from 'react-icons/io';
 
 type CardProps = {
     icon: JSX.Element;

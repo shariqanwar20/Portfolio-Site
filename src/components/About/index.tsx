@@ -1,8 +1,7 @@
 import React from "react";
 import Header from "../Services/Header";
-// import about from "../../data/about.json";
 import data from '../../../data.json'
-import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
+import { StaticImage } from "gatsby-plugin-image";
 
 export default () => {
   return (

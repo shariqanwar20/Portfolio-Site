@@ -2,8 +2,7 @@ import React from "react";
 import ContactCard from "./ContactCard";
 import Header from "../Services/Header";
 // import contacts from "../../data/contact.json";
-import { LocationMarkerIcon, PhoneIcon, MailIcon } from "@heroicons/react/solid";
-import { contact } from '../../../data.json'
+import data from '../../../data.json'
 
 export default () => {
   return (
@@ -13,8 +12,8 @@ export default () => {
           HAVE ANY QUERY?
         </div>
         <Header
-          title={contact.header}
-          description={contact.subHeader}
+          title={data.contact.header}
+          description={data.contact.subHeader}
           backgroundColor="primaryBg"
         />
         <div
@@ -23,7 +22,7 @@ export default () => {
             width: "95%",
           }}
         >
-          {contact.details.map((contact, i) => (
+          {data.contact.details.map((contact, i) => (
             <ContactCard
               title={contact.title}
               description={contact.description}
