@@ -16,7 +16,7 @@ export default () => {
             <Certifications /> {/* done */}
             <Services />
             <About />
-            <Skills />
+            {/* <Skills /> */}
             <Projects /> {/* done */}
             {/* <Experience /> */}
             <Contact /> {/* done */}

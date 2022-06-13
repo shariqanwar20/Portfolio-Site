@@ -14,14 +14,14 @@ export default ({ title, description, backgroundColor }: HeaderProps) => {
           <h4 className="text-4xl text-primaryText font-sans text-center font-bold">
             {title}
           </h4>
-          <p className="text-secondaryText text-lg text-center">
+          {/* <p className="text-secondaryText text-lg text-center">
             {description}
-          </p>
+          </p> */}
         </div>
       </div>
 
       {/* create a border effect at the end of header */}
-      <div className="w-14 h-2 border-b-4 border-alternateText pb-12 m-auto"></div>
+      <div className="w-14 h-2 border-b-4 border-alternateText pb-8 m-auto"></div>
     </div>
   );
 };

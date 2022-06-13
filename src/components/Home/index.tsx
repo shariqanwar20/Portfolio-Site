@@ -5,6 +5,8 @@ import SocialMediaLinks from "./SocialMediaLinks";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 
 import data from '../../../data.json'
+// const profilePic = require(data.home.profilePicture)
+import { StaticImage } from "gatsby-plugin-image";
 
 export default () => {
   return (
@@ -42,11 +44,12 @@ export default () => {
             </li>
           </ul>
         </div>
-        <img
+        {/* <img
           className="hidden lg:block lg:mx-auto lg:col-span-2"
-          src={data.home.profilePicture}
+          src={profilePic}
           alt="Profile Picture"
-        />
+        /> */}
+         <StaticImage src="../../images/DP.jpeg" alt="Profile Picture" className="hidden lg:block lg:mx-auto lg:col-span-2 lg:m-4" />
       </div>
     </div>
   );

@@ -3,8 +3,9 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Card from "./Card";
 import Header from "../Services/Header";
+import logo from '../../images/workflow-mark-indigo-500.svg'
 
-import {projects} from "../../../data.json";
+import data from "../../../data.json";
 
 export default () => {
   const responsive = {
@@ -28,8 +29,8 @@ export default () => {
   return (
     <div id="projects" className="bg-primaryBg py-10">
       <Header
-        title={projects.header}
-        description={projects.subHeader}
+        title={data.projects.header}
+        description={data.projects.subHeader}
         backgroundColor="primaryBg"
       />
       <Carousel
@@ -38,21 +39,21 @@ export default () => {
         showDots={true}
         responsive={responsive}
         ssr={true}
-        infinite={true}
+        infinite={false}
         autoPlay={false}
         autoPlaySpeed={4000}
         keyBoardControl={true}
-        customTransition="all .5"
+        customTransition="transform 300ms ease-in-out"
         transitionDuration={500}
         containerClass="carousel-container"
         removeArrowOnDeviceType={["tablet", "mobile"]}
         dotListClass="custom-dot-list-style"
         itemClass="carousel-item-padding-40-px"
       >
-        {projects.projects.map((project) => {
+        {data.projects.projects.map((project) => {
           return (
             <Card
-              imgSrc={project.logo}
+            imgSrc={project.logo? project.logo : logo}
               title={project.title}
               description={project.description}
               link={project.link}

@@ -2,23 +2,20 @@ import React from "react";
 import Header from "../Services/Header";
 // import about from "../../data/about.json";
 import data from '../../../data.json'
+import { GatsbyImage, StaticImage } from "gatsby-plugin-image";
 
 export default () => {
   return (
     <>
       <div id="about">
         <Header
-          title="About"
-          description={""}
+          title={data.about.header}
+          description={data.about.subHeader}
           backgroundColor="secondaryBg"
         />
 
-        <div className="flex flex-wrap lg:grid lg:grid-cols-2 lg:block justify-center bg-secondaryBg py-5">
-          <img
-            className="mx-auto"
-            src={data.about.image}
-            alt="About Me"
-          />
+        <div className="flex flex-wrap lg:grid lg:grid-cols-2 justify-center bg-secondaryBg py-5">
+          <StaticImage src="../../images/DP.jpeg" alt="About Me" className="mx-auto rounded-md" width={250} />
           <div className="py-12 space-y-7 mx-5">
             <div className="font-bold text-3xl text-primaryText font-sans">
               Hi There
@@ -27,7 +24,7 @@ export default () => {
              {data.about.description}
             </div>
             <div>
-              <ul className="flex flex-wrap flex-col space-y-6 lg:grid lg:grid-cols-2 lg:block lg:space-y-0">
+              <ul className="flex flex-wrap flex-col space-y-6 lg:grid lg:grid-cols-2 lg:space-y-0">
                 {data.about.contact.map((field, i) => {
                   return (
                     <li className="pb-4" key={i}>

@@ -11,7 +11,7 @@
     "name": "Zohaib Azam",
     "description": "I am an Aspiring Computer Scientist. Currently I am serving as Techno-Functional resource at 3STEM and \n as a Technical Lead at Google Developer Student Club. Looking forward to collaborate on SAP/Data Science and Blockchain Projects.",
     "introVideo": "",
-    "profilePicture": "../../images/DP.png",
+    "profilePicture": "DP.jpeg",
     "socialMedia": {
       "facebook": "",
       "twitter": "",
@@ -20,7 +20,7 @@
     }
   },
   "experience": {
-    "header": "",
+    "header": "My Experiences",
     "subHeader": "",
     "experiences": [
       {
@@ -57,7 +57,7 @@
   },
 
   "projects": {
-    "header": "",
+    "header": "My Projects",
     "subHeader": "",
     "projects": [
       {
@@ -98,14 +98,20 @@
       }
     ]
   },
+  
+
+
+
+
+
   "certifications": {
-    "header": "",
+    "header": "My Certifications",
     "subHeader": "",
     "certificates": [
       {
         "title": "SAP ABAP Course from Omni Academy",
         "description": "Completed two months course on Advanced Business Application Programming Module of SAP, 2019",
-        "image": "../../images/SAP.png"
+        "image": "https://i.ibb.co/74RKyCn/SAP.jpg"
       },
       {
         "title": "Introduction to Computer Science by Harvard University (CS50x2021)",
@@ -115,12 +121,12 @@
       {
         "title": "Introduction to AI by Andrew NG",
         "description": "Verification Link:\nhttps://www.coursera.org/account/accomplishments/certificate/82THRYF8BF",
-        "image": "../../images/AI.png"
+        "image": "https://i.ibb.co/nRRMHj2/AI.png"
       },
       {
         "title": "Python for Data Science, AI and Development",
         "description": "Verification Link:\nhttps://www.coursera.org/account/accomplishments/certificate/ZWBPXR4K3E6M",
-        "image": "../../images/IBMAI.png"
+        "image": "https://i.ibb.co/fqt7Rtx/IBMAI.png"
       },
       {
         "title": "Artificial Intelligence and Data Science by PIAIC",
@@ -136,55 +142,56 @@
       {
         "title": "Game Development through OOP in C#",
         "description": "Completed this course with an alien shooting game as Final Project through EXIIT \n(Karachi University's department UBIT run organization), 2017",
-        "image": "../../images/Exiit.png"
+        "image": "https://i.ibb.co/NFjG1xc/Exiit.jpg"
       },
       {
         "title": "Honorary Mention Award in IU MUN",
         "description": "Received Honorary Mention Award in Iqra University Model United Nations in United Nations Security Council Comittee, 2016",
-        "image": "../../images/IUmunCertificate.png"
+        "image": "https://i.ibb.co/BBm01tn/IUmun-Certificate.png"
       },
       {
         "title": "Best Delegate Award in PATS MUN",
         "description": "Received Best Delegate Award in St Patrick's Model United Nations in Pakistan National Assembly Comittee, 2016",
-        "image": "../../images/PatsMunCertif.png"
+        "image": "https://i.ibb.co/6wXhRK3/Pats-MUNCertif.jpg"
       },
       {
         "title": "Make a Wish",
         "description": "Volunteer Work:\nOrganised drives to the hospital to visit children suffering from multiple illnesses.\nCollected their data: Illness, Medical History and their wishes\nRan Donation Campaigns in the University and other places to generate funds to fulfill wishes of those children \nLead donation drives,2021",
-        "image": "../../images/MakeAWish.png"
+        "image": "https://i.ibb.co/LDwwzQN/Make-AWish.jpg"
       }
       
     ]
   },
   "about": {
-    "header": "",
+    "header": "About Me",
     "subHeader": "",
     "image": "",
+    "description": "",
     "contact": [
-      { "title": "Name: ", "value": "" },
-      { "title": "Email: ", "value": "" },
-      { "title": "Phone: ", "value": "" }
+      { "title": "Name: ", "value": "Zohaib Azam" },
+      { "title": "Email: ", "value": "zohaib.azam@nixorcollege.edu.pk" },
+      { "title": "Phone: ", "value": "+92-12345678" }
     ]
   },
   "education": {},
   "contact": {
-    "header": "",
+    "header": "Contact Me",
     "subHeader": "",
     "endPoint": "https://getform.io/f/60b73451-9b1d-486b-8958-39774c08abb1",
     "details": [
       {
         "title": "Locate Us",
-        "description": "YOUR LOCATION/CITY/COUNTRY",
+        "description": "Karachi, Pakistan",
         "icon": "location"
       },
       {
         "title": "Give us a Call",
-        "description": "Office: YOUR PHONE NUMBER",
+        "description": "Office: +92-313-55555555",
         "icon": "phone"
       },
       {
         "title": "Get In Online",
-        "description": "YOUR_EMAIL",
+        "description": "zohaib.azam@nixorcollege.edu.pk",
         "icon": "mail"
       }
     ]
