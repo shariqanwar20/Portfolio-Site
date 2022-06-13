@@ -46,11 +46,11 @@ export default () => {
           src={profilePic}
           alt="Profile Picture"
         /> */}
-        <div className="hidden lg:block">
+        <div className="hidden lg:block lg:col-span-2 lg:m-4">
           <StaticImage
             src="../../images/DP.jpeg"
             alt="Profile Picture"
-            className="hidden lg:block lg:mx-auto lg:col-span-2 lg:m-4"
+            className="lg:mx-auto"
           />
         </div>
       </div>
